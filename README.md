@@ -37,6 +37,6 @@
    echo '%_gpg_name Semiuglov Konstantin' > .rpmmacros
    ```
 - Перехожу в папку rpmbuild/RPMS/x86_64 и подписываю все пакеты:
-```
-rpm --addsign *.rpm
-```
+   ```
+   rpm --addsign *.rpm
+   ```
